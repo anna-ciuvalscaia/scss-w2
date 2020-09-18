@@ -1,0 +1,146 @@
+
+
+$color-light: plum;
+$color-dark: #333;
+
+
+body {
+    background-color: $color-light;
+    font-family: 'Lato', sans-serif;
+    height: 900px;
+}
+#fon { 
+    background-color: darken($color-light,3%);
+    border: 1 px solid darken($color-light,3%);
+    border-radius: 100px;
+    width: 1000px;
+    height: 700px;
+    margin-top: 200px;
+    margin-left: -150px;
+    transform: rotate(-35deg); 
+}
+
+/*FEATURES HEADER*/
+#features { /*background-color: bisque;*/
+    width: 1200px;
+    margin-left: auto; margin-right: auto;
+    transform: translateY(-750px);
+    
+
+ header { /*background-color: aqua;*/
+    width: 450px; 
+    padding: 15px; 
+  display: inline-block;
+  transform: translateX(700px);
+  
+}
+  header h1 {
+    font-size: 46px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 55.2px;
+    margin-bottom: 20px;
+}
+  header span {
+ font-size: 18px;  
+color: darken($color-light,70%);
+}
+ 
+ header h2 {
+    color: darken($color-light,50%);
+    font-size: 16px;
+    line-height: 1.5;
+    transform: translateY(-260px);
+    margin-left: 10px;
+}
+ header h3 {
+    font-size: 18px;
+    color: lighten($color-dark,20%) ;
+    margin-top: -20px;
+}
+ header p {
+   color: darken($color-light,70%);
+   line-height: 1.5; 
+  margin-bottom: 55px;  
+}
+ header a {
+    background-color: darken($color-light,40%);
+    border: 1px solid darken($color-light,40%);
+    padding: 10px 20px;
+    color: lighten($color-dark,90%);
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    border-radius: 5px;
+    
+    
+}
+
+/*LI CONTAINER*/
+ #li_container {
+   /*background-color: aquamarine;*/
+    width: 580px;
+    padding: 10px; 
+    display: inline-block;
+    transform: translateX(-450px);   
+
+  .card_1 {
+    transform: translateY(-22px);
+
+}
+ .diamond {
+     margin-top: 35px;
+}
+  ul {
+   padding: 0;
+transform: rotate(-7deg);
+}
+  li {
+    list-style: none;
+    margin-left: 0;
+    background-color: lighten($color-light, 12%);
+    width: 200px; 
+    display: inline-block;
+    padding: 18px 30px 25px 20px;
+    margin: 15px; 
+    vertical-align: middle;
+    transform: rotate(-20px);
+    border: 1px solid lighten($color-light, 12%);
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px 1px darken($color-light,10%);
+    transition: 0.5s;
+}
+  ul li:hover {
+    transform: rotate3d(1, 1, 2, 10deg);
+}
+    
+  li h3 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: darken($color-light, 75%);
+    margin-bottom: 50px;
+}
+  li p {
+    color: lighten($color-dark,30%);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+   margin-bottom: 50px;
+}
+ }
+
+/*PICTOGRAMA*/
+ .pictograma {
+    background-color: darken($color-light,40%);
+    border: 1px solid darken($color-light,40%);
+    border-radius: 100%;
+    width: 50px; height: 50px;
+    padding: 10px;
+     
+}
+
+
+}
+
